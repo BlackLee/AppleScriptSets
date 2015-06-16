@@ -1,3 +1,4 @@
+# Finder -> Go -> Recent Folders -> Clear Menu
 tell application "System Events" to tell process "Finder"
 	set frontmost to true
 	tell menu bar item "Go" of menu bar 1
